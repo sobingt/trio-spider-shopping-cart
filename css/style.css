@@ -29,3 +29,22 @@
   float: right;
   margin-right: 20px;
 }
+
+.cartItem {
+    width: 200px;
+    border-style: solid;
+    border-color: #575557;
+    border-width: 1px;
+    padding: 21px;
+    border-radius: 10px;
+}
+
+.remove {
+    float: right;
+    cursor: pointer;
+}
+
+span.btn {
+    cursor: pointer;
+}
+
