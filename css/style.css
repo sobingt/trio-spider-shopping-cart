@@ -1,0 +1,31 @@
+.product{
+  width: 200px;
+  float: left;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-left: 12px;
+  margin-bottom: 7px;
+  
+}
+.product span{
+  display: block;
+}
+.product span.btn{
+  background-color: grey;
+  float: right;
+  padding: 7px;
+  margin-top: 7px;
+}
+
+.cart{
+  display: block;
+  width: 100%;
+  position:fixed;
+  bottom: 20px;
+  left: 0;
+  right:0;
+}
+.cart div{
+  float: right;
+  margin-right: 20px;
+}
