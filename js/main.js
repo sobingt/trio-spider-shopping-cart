@@ -18,7 +18,6 @@ var cart = function() {
         this.items.push(product);
         this.price += product.price;
     };
-
 };
 //cart object template
 cartObject = new cart();
@@ -68,6 +67,5 @@ var init = function() {
 
 };
 
-
-
 init();
+
