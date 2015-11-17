@@ -93,8 +93,7 @@ var init = function() {
 
     }
     document.body.appendChild(div);
-      cartObject.addToCart(products[0]);
-    cartObject.addToCart(products[1]);
+
 };
 
 init();
