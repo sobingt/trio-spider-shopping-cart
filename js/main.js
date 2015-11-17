@@ -13,6 +13,11 @@ var cart = function(){
         this.items.splice(i,1);
     }
   };
+  this.addToCart = function(product){
+    this.items.push(product);
+    this.price+=product.price;
+  };
+  
 };
 cartObject = new cart();
 console.log(cartObject.price);
@@ -33,6 +38,8 @@ laptop.addToCart();
 laptop.addToCart();
 laptop.addToCart();
 laptop.addToCart();
+//using cart object method
+cartObject.addToCart(laptop);
 console.log(cartObject.items.length);
 cartObject.removeFromCartById(1);
 console.log(cartObject.items);
